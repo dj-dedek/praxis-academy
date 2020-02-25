@@ -6,3 +6,5 @@ saya mengunnakan sistem operasi linux (Ubuntu)
  ~ linux console & Terminal
  ~ shell script
 
+belajar tentang version control git & github
+create repostory git init, git add, git commit, git push, create file, README, Markdown
