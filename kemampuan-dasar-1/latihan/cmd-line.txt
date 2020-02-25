@@ -1,0 +1,599 @@
+1. $ ls
+    Android
+    Apps
+    backup.log
+    Desktop
+    Documents
+    Downloads
+    edutore_local.sql
+    examples.desktop
+    firebase-debug.log
+    formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    gen
+    install_nvm.sh
+    keystore.jks
+    Music
+    node_modules
+    nodesource_setup.sh
+    package-lock.json
+    Pictures
+    Public
+    Rounded_Rectangle_2.png
+    snap
+    sudo
+    teamviewer_amd64.deb
+    Templates
+    testdisk.log
+    Videos
+    watchman
+
+2. $ ls -al
+    drwxr-xr-x  56 dedek dedek     4096 Feb 25 23:10 .
+    drwxr-xr-x   4 root  root      4096 Feb 17  2019 ..
+    drwxr-xr-x   6 dedek dedek     4096 Des  8 16:28 .android
+    drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Android
+    drwxr-xr-x   4 dedek dedek     4096 Feb 18  2019 .AndroidStudio3.3
+    drwxrwxr-x   4 dedek dedek     4096 Jul  7  2019 .AndroidStudio3.4
+    drwxr-xr-x   4 dedek dedek     4096 Nov  6 01:18 .AndroidStudio3.5
+    drwxr-xr-x   3 dedek dedek     4096 Feb 21 23:24 .anydesk
+    -rw-rw-r--   1 dedek dedek      107 Mar  5  2019 .apport-ignore.xml
+    drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Apps
+    drwxrwxr-x   3 dedek dedek     4096 Feb  3 19:09 .avocode
+    -rw-r--r--   1 dedek dedek  4068298 Jun 13  2019 .babel.json
+    -rw-r--r--   1 root  root       114 Okt  8 13:46 backup.log
+    -rw-------   1 dedek dedek    31869 Feb  2 02:38 .bash_history
+    -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-02031.tmp
+    -rw-------   1 dedek dedek        0 Apr  9  2019 .bash_history-02144.tmp
+    -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-05837.tmp
+    -rw-------   1 dedek dedek        0 Jul 31  2019 .bash_history-10685.tmp
+    -rw-------   1 dedek dedek        0 Jul  7  2019 .bash_history-12603.tmp
+    -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-13250.tmp
+    -rw-r--r--   1 dedek dedek      220 Feb 17  2019 .bash_logout
+    -rw-r--r--   1 root  root       206 Feb 21  2019 .bash_profile
+    -rw-r--r--   1 dedek dedek     4134 Feb 26  2019 .bashrc
+    drwx------  41 dedek dedek     4096 Feb 25 22:21 .cache
+    drwx------  48 dedek dedek     4096 Feb 25 22:23 .config
+    drwx------   3 root  root      4096 Feb 18  2019 .dbus
+    drwxr-xr-x   2 dedek dedek     4096 Okt 21 15:49 Desktop
+    drwxr-xr-x  10 dedek dedek     4096 Feb 25 22:23 Documents
+    drwxr-xr-x  17 dedek dedek     4096 Feb 22 02:33 Downloads
+    drwxrwxr-x   4 dedek dedek     4096 Sep 20 10:30 .eclipse
+    -rw-r--r--   1 dedek dedek        0 Sep 23 22:56 edutore_local.sql
+    drwxr-xr-x   2 dedek dedek     4096 Jun 24  2019 .electron
+    -rw-------   1 dedek dedek       16 Feb 18  2019 .emulator_console_auth_token
+    -rw-r--r--   1 dedek dedek     8980 Feb 17  2019 examples.desktop
+    drwxr-xr-x   4 dedek dedek     4096 Jun 13  2019 .expo
+    -rw-r--r--   1 dedek dedek     1122 Mar  3  2019 firebase-debug.log
+    -rw-r--r--   1 dedek dedek   799694 Mar 12  2019 formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    drwx------   2 dedek dedek     4096 Jun 24  2019 .gconf
+    drwxrwxr-x   2 dedek dedek     4096 Feb 21  2019 gen
+    drwxrwxr-x   3 dedek dedek     4096 Feb 18  2019 .Genymobile
+    -rw-r--r--   1 dedek dedek       61 Jan 17 14:13 .gitconfig
+    -rw-r--r--   1 dedek dedek       54 Feb 21  2019 .gitconfiges
+    drwx------   3 dedek dedek     4096 Feb 17  2019 .gnome
+    drwx------   3 dedek dedek     4096 Feb 17  2019 .gnupg
+    drwxr-xr-x   2 dedek dedek     4096 Mar 27  2019 .gphoto
+    drwxr-xr-x   8 dedek dedek     4096 Mar  9  2019 .gradle
+    -rw-------   1 dedek dedek    66956 Feb 25 22:21 .ICEauthority
+    drwxrwxr-x   3 dedek dedek     4096 Mar 27  2019 .idea
+    -rw-r--r--   1 dedek dedek    12819 Feb 17  2019 install_nvm.sh
+    drwxr-xr-x   5 dedek dedek     4096 Jun 24  2019 .java
+    drwxrwxr-x   3 dedek dedek     4096 Agu 22  2019 .jmc
+    -rw-rw-r--   1 dedek dedek     2212 Sep 24 01:33 keystore.jks
+    drwx------   3 dedek dedek     4096 Feb 17  2019 .local
+    drwx------   5 dedek dedek     4096 Feb 17  2019 .mozilla
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Music
+    drwx------   3 dedek dedek     4096 Feb 17  2019 .mysql
+    -rw-------   1 dedek dedek      259 Jan 27 09:45 .mysql_history
+    drwxr-xr-x   3 dedek dedek     4096 Apr  4  2019 .node-gyp
+    drwxr-xr-x 176 dedek dedek     4096 Okt 10 11:14 node_modules
+    -rw-------   1 dedek dedek        5 Sep 23 14:55 .node_repl_history
+    -rw-r--r--   1 dedek dedek    11528 Feb 17  2019 nodesource_setup.sh
+    drwxr-xr-x   9 dedek dedek     4096 Feb 22 15:00 .npm
+    -rw-rw-r--   1 dedek dedek      356 Agu 22  2019 .nvidia-settings-rc
+    drwxr-xr-x   5 dedek dedek     4096 Feb 17  2019 .nvm
+    drwxr-xr-x  12 dedek dedek     4096 Feb 21 23:18 .oh-my-zsh
+    -rw-r--r--   1 dedek dedek    51127 Okt 10 11:14 package-lock.json
+    drwxr-xr-x   4 dedek dedek     4096 Feb 22 02:26 Pictures
+    drwx------   3 dedek dedek     4096 Feb 17  2019 .pki
+    -rw-r--r--   1 dedek dedek      807 Feb 17  2019 .profile
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Public
+    drwxr-xr-x   3 dedek dedek     4096 Jul 22  2019 .react-native-cli
+    -rw-------   1 dedek dedek       85 Sep 23 17:14 .rediscli_history
+    -rw-rw-r--   1 dedek dedek      150 Jun 14  2019 Rounded_Rectangle_2.png
+    drwxr-xr-x   4 dedek dedek     4096 Jul 31  2019 snap
+    drwx------   2 dedek dedek     4096 Mar  9  2019 .ssh
+    -rw-r--r--   1 dedek dedek        0 Sep 20 10:04 sudo
+    -rw-r--r--   1 dedek dedek        0 Feb 16  2019 .sudo_as_admin_successful
+    drwxr-xr-x   2 dedek dedek     4096 Sep 20 11:34 .swt
+    -rw-r--r--   1 dedek dedek 13847748 Agu 20  2019 teamviewer_amd64.deb
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Templates
+    -rw-r--r--   1 dedek dedek     5307 Okt  8 14:54 testdisk.log
+    drwx------   5 dedek dedek     4096 Jan 11 13:39 .thunderbird
+    drwxr-xr-x   3 dedek dedek     4096 Mar 13  2019 .tooling
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Videos
+    -rw-------   1 root  root      4585 Jul  8  2019 .viminfo
+    drwxrwxr-x   3 dedek dedek     4096 Agu 22  2019 .visualvm
+    drwxrwxr-x   3 dedek dedek     4096 Nov 21 23:03 .vscode
+    drwxr-xr-x   3 dedek dedek     4096 Jul 28  2019 .vue-cli-ui
+    -rw-r--r--   1 dedek dedek      119 Okt 11 11:12 .vuerc
+    drwxr-xr-x   7 dedek dedek     4096 Jan 27 21:38 .vue-templates
+    drwxr-xr-x  20 dedek dedek     4096 Mar 15  2019 watchman
+    -rw-r--r--   1 dedek dedek      273 Feb  2 03:35 .wget-hsts
+    drwxr-xr-x   4 dedek dedek     4096 Sep 20 10:25 .wine
+    drwxr-xr-x   3 dedek dedek     4096 Mar 12  2019 .yarn
+    -rw-r--r--   1 dedek dedek      116 Jan 27 21:29 .yarnrc
+    -rw-r--r--   1 dedek dedek    42742 Feb  2 02:39 .zcompdump
+    -rw-r--r--   1 dedek dedek    42742 Feb  2 02:40 .zcompdump-dj-5.4.2
+    -rw-------   1 dedek dedek     4433 Feb 25 23:10 .zsh_history
+    -rw-r--r--   1 dedek dedek     3551 Feb  2 02:40 .zshrc
+   
+3. $ ls -a
+    .
+    ..
+    .android
+    Android
+    .AndroidStudio3.3
+    .AndroidStudio3.4
+    .AndroidStudio3.5
+    .anydesk
+    .apport-ignore.xml
+    Apps
+    .avocode
+    .babel.json
+    backup.log
+    .bash_history
+    .bash_history-02031.tmp
+    .bash_history-02144.tmp
+    .bash_history-05837.tmp
+    .bash_history-10685.tmp
+    .bash_history-12603.tmp
+    .bash_history-13250.tmp
+    .bash_logout
+    .bash_profile
+    .bashrc
+    .cache
+    .config
+    .dbus
+    Desktop
+    Documents
+    Downloads
+    .eclipse
+    edutore_local.sql
+    .electron
+    .emulator_console_auth_token
+    examples.desktop
+    .expo
+    firebase-debug.log
+    formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    .gconf
+    gen
+    .Genymobile
+    .gitconfig
+    .gitconfiges
+    .gnome
+    .gnupg
+    .gphoto
+    .gradle
+    .ICEauthority
+    .idea
+    install_nvm.sh
+    .java
+    .jmc
+    keystore.jks
+    .local
+    .mozilla
+    Music
+    .mysql
+    .mysql_history
+    .node-gyp
+    node_modules
+    .node_repl_history
+    nodesource_setup.sh
+    .npm
+    .nvidia-settings-rc
+    .nvm
+    .oh-my-zsh
+    package-lock.json
+    Pictures
+    .pki
+    .profile
+    Public
+    .react-native-cli
+    .rediscli_history
+    Rounded_Rectangle_2.png
+    snap
+    .ssh
+    sudo
+    .sudo_as_admin_successful
+    .swt
+    teamviewer_amd64.deb
+    Templates
+    testdisk.log
+    .thunderbird
+    .tooling
+    Videos
+    .viminfo
+    .visualvm
+    .vscode
+    .vue-cli-ui
+    .vuerc
+    .vue-templates
+    watchman
+    .wget-hsts
+    .wine
+    .yarn
+    .yarnrc
+    .zcompdump
+    .zcompdump-dj-5.4.2
+    .zsh_history
+    .zshrc
+
+4. $ mkdir mydirectory && ls
+    Android
+    Apps
+    backup.log
+    Desktop
+    Documents
+    Downloads
+    edutore_local.sql
+    examples.desktop
+    firebase-debug.log
+    formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    gen
+    install_nvm.sh
+    keystore.jks
+    Music
+
+    mydirectory
+
+    node_modules
+    nodesource_setup.sh
+    package-lock.json
+    Pictures
+    Public
+    Rounded_Rectangle_2.png
+    snap
+    sudo
+    teamviewer_amd64.deb
+    Templates
+    testdisk.log
+    Videos
+    watchman
+
+5. $ rmdir mydirectory && ls
+    Android
+    Apps
+    backup.log
+    Desktop
+    Documents
+    Downloads
+    edutore_local.sql
+    examples.desktop
+    firebase-debug.log
+    formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    gen
+    install_nvm.sh
+    keystore.jks
+    Music
+    node_modules
+    nodesource_setup.sh
+    package-lock.json
+    Pictures
+    Public
+    Rounded_Rectangle_2.png
+    snap
+    sudo
+    teamviewer_amd64.deb
+    Templates
+    testdisk.log
+    Videos
+    watchman
+
+6. $ man man
+    MAN(1)                        Manual pager utils                       MAN(1)
+
+    NAME
+        man - an interface to the on-line reference manuals
+
+    SYNOPSIS
+        man  [-C  file]  [-d]  [-D]  [--warnings[=warnings]] [-R encoding] [-L
+        locale] [-m system[,...]] [-M path] [-S list] [-e  extension]  [-i|-I]
+        [--regex|--wildcard]  [--names-only]  [-a]  [-u]  [--no-subpages]  [-P
+        pager] [-r prompt] [-7] [-E encoding] [--no-hyphenation]  [--no-justi‐
+        fication]  [-p  string] [-t] [-T[device]] [-H[browser]] [-X[dpi]] [-Z]
+        [[section] page[.section] ...] ...
+        man -k [apropos options] regexp ...
+        man -K [-w|-W] [-S list] [-i|-I] [--regex] [section] term ...
+        man -f [whatis options] page ...
+        man -l [-C file] [-d] [-D] [--warnings[=warnings]] [-R  encoding]  [-L
+        locale]  [-P  pager]  [-r  prompt] [-7] [-E encoding] [-p string] [-t]
+        [-T[device]] [-H[browser]] [-X[dpi]] [-Z] file ...
+        man -w|-W [-C file] [-d] [-D] page ...
+        man -c [-C file] [-d] [-D] page ...
+        man [-?V]
+
+    DESCRIPTION
+
+7. $ history
+    1  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+    2  source ~/.zshrc
+    3  ls
+    4  cd .oh-my-zsh/
+    5  ls
+    6  cd templates
+    7  ls
+    8  sudo apt-get install mate-desktop
+    9  sudo tasksel install ubuntu-mate-desktop
+   10  sudo apt install tasksel
+   11  sudo tasksel install ubuntu-mate-desktop
+   12  htop
+   13  cd Downloads
+   14  wget https://downloads.vivaldi.com/stable/vivaldi-stable_2.10.1745.27-1_amd64.deb
+   15  htop
+   16  wget https://downloads.vivaldi.com/stable/vivaldi-stable_2.10.1745.27-1_amd64.deb
+   17  ls
+   18  sudo dpkg -i vivaldi-stable_2.10.1745.27-1_amd64.deb
+   19  sudo apt install -f
+   20  sudo dpkg -i vivaldi-stable_2.10.1745.27-1_amd64.deb
+   21  wget https://downloads.vivaldi.com/stable/vivaldi-stable_2.10.1745.27-1_amd64.deb
+   22  sudo dpkg -i vivaldi-stable_2.10.1745.27-1_amd64.deb
+   23  htop
+   24  sudo tasksel install ubuntu-mate-desktop
+   25  sudo reboot
+   26  htop
+   27  sudo reboot
+   28  htop
+   29  cd Documents
+   30  exit
+   31  shutdown -h now
+   32  htop
+   33  cd Documents/Rimember
+   34  cd rim-web-apps
+   35  npm run dev
+   36  cd Documents/Rimember/rim-web-v2
+   37  npm run dev
+   38  npm install
+   39  npm run dev
+   40  npm install
+   41  npm rebuild node-sass
+   42  npm run dev
+   43  clear
+   44  npm run dev
+   45  clear
+   46  npm run dev
+   47  clear
+   48  npm run dev
+   49  reboot
+   50  cd Documents/Rimember/
+   51  ls
+   52  cd rim-web-apps
+   53  clear
+   54  code . && npm run dev
+   55  htop
+   56  cd Documents/Rimember//rim-web-v2
+   57  ls
+   58  clear && npm run dev
+   59  clear
+   60  code .
+   61  clear
+   62  npm run dev
+   63  clear
+   64  npm run dev
+   65  exit
+   66  clear
+   67  npm run dev
+   68  cleaer
+   69  clear
+   70  npm run dev
+   71  clear
+   72  npm run dev
+   73  clear
+   74  npm run dev
+   75  exit
+   76  htop
+   77  ls
+   78  whoami
+   79  https://download.anydesk.com/linux/anydesk_5.5.0-1_amd64.deb\n
+   80  wget https://download.anydesk.com/linux/anydesk_5.5.0-1_amd64.deb\n
+   81  cd Downloads
+   82  sudo dpkg -i anydesk_5.5.3-1_amd64.deb
+   83  sudo apt install libpango
+   84  sudo apt install -f
+   85  sudo dpkg -i anydesk_5.5.3-1_amd64.deb
+   86  ping 8.8.8.8
+   87  exit
+   88  cd edutore-api
+   89  git branch
+   90  git pull origin staging
+   91  cd ..
+   92  cd edutore-html
+   93  git pull origin master
+   94  cd ..
+   95  cd edutore-web
+   96  git branch
+   97  git pull origin master
+   98  exit
+   99  cd rim-api-v2
+  100  git branch
+  101  git pull origin master
+  102  cd ..
+  103  cd Rim-project
+  104  cd rim-api
+  105  git branch
+  106  cd ..
+  107  cd rim-e-commerce
+  108  git branch
+  109  git -b master
+  110  git  master
+  111  git switch master
+  112  git branch master
+  113  git branch -b master
+  114  git pull origin staging
+  115  exit
+  116  npm run dev
+  117  exit
+  118  htop
+  119  reboot
+  120  cat /etc/issue
+  121  cat /etc/X11/default-display-manager
+  122  printf 'Desktop: %s\nSession: %s\n' "$XDG_CURRENT_DESKTOP" "$GDMSESSION"
+  123  sudo  echo $DESKTOP_SESSION
+  124  echo $XDG_CURRENT_DESKTOP
+  125  ls /usr/share/xsessions/
+  126  ps -e | grep -E -i "xfce|kde|gnome"
+  127  echo $0
+  128  echo $SHELL
+  129  dpkg --get-selections | grep linux-image
+  130  rpm -qa kernel
+  131  uname -r
+  132  uname -a
+  133  ls
+  134  ls -R
+  135  ls-R
+  136  ls -al
+  137  ls -a
+  138  cat filename
+  139  mkdir mydirectory
+  140  ls
+  141  rmdir mydirectory
+  142  ls
+  143  man 
+  144  man man
+
+8. $ ls -l
+    drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Android
+    drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Apps
+    -rw-r--r--   1 root  root       114 Okt  8 13:46 backup.log
+    drwxr-xr-x   2 dedek dedek     4096 Okt 21 15:49 Desktop
+    drwxr-xr-x  10 dedek dedek     4096 Feb 25 22:23 Documents
+    drwxr-xr-x  17 dedek dedek     4096 Feb 22 02:33 Downloads
+    -rw-r--r--   1 dedek dedek        0 Sep 23 22:56 edutore_local.sql
+    -rw-r--r--   1 dedek dedek     8980 Feb 17  2019 examples.desktop
+    -rw-r--r--   1 dedek dedek     1122 Mar  3  2019 firebase-debug.log
+    -rw-r--r--   1 dedek dedek   799694 Mar 12  2019 formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+    drwxrwxr-x   2 dedek dedek     4096 Feb 21  2019 gen
+    -rw-r--r--   1 dedek dedek    12819 Feb 17  2019 install_nvm.sh
+    -rw-rw-r--   1 dedek dedek     2212 Sep 24 01:33 keystore.jks
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Music
+    drwxr-xr-x 176 dedek dedek     4096 Okt 10 11:14 node_modules
+    -rw-r--r--   1 dedek dedek    11528 Feb 17  2019 nodesource_setup.sh
+    -rw-r--r--   1 dedek dedek    51127 Okt 10 11:14 package-lock.json
+    drwxr-xr-x   4 dedek dedek     4096 Feb 22 02:26 Pictures
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Public
+    -rw-rw-r--   1 dedek dedek      150 Jun 14  2019 Rounded_Rectangle_2.png
+    drwxr-xr-x   4 dedek dedek     4096 Jul 31  2019 snap
+    -rw-r--r--   1 dedek dedek        0 Sep 20 10:04 sudo
+    -rw-r--r--   1 dedek dedek 13847748 Agu 20  2019 teamviewer_amd64.deb
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Templates
+    -rw-r--r--   1 dedek dedek     5307 Okt  8 14:54 testdisk.log
+    drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Videos
+    drwxr-xr-x  20 dedek dedek     4096 Mar 15  2019 watchman
+
+9. $ ls -al > listings
+   $ cat listings
+        total 18896
+        drwxr-xr-x  56 dedek dedek     4096 Feb 25 23:23 .
+        drwxr-xr-x   4 root  root      4096 Feb 17  2019 ..
+        drwxr-xr-x   6 dedek dedek     4096 Des  8 16:28 .android
+        drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Android
+        drwxr-xr-x   4 dedek dedek     4096 Feb 18  2019 .AndroidStudio3.3
+        drwxrwxr-x   4 dedek dedek     4096 Jul  7  2019 .AndroidStudio3.4
+        drwxr-xr-x   4 dedek dedek     4096 Nov  6 01:18 .AndroidStudio3.5
+        drwxr-xr-x   3 dedek dedek     4096 Feb 21 23:24 .anydesk
+        -rw-rw-r--   1 dedek dedek      107 Mar  5  2019 .apport-ignore.xml
+        drwxr-xr-x   3 dedek dedek     4096 Feb 18  2019 Apps
+        drwxrwxr-x   3 dedek dedek     4096 Feb  3 19:09 .avocode
+        -rw-r--r--   1 dedek dedek  4068298 Jun 13  2019 .babel.json
+        -rw-r--r--   1 root  root       114 Okt  8 13:46 backup.log
+        -rw-------   1 dedek dedek    31869 Feb  2 02:38 .bash_history
+        -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-02031.tmp
+        -rw-------   1 dedek dedek        0 Apr  9  2019 .bash_history-02144.tmp
+        -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-05837.tmp
+        -rw-------   1 dedek dedek        0 Jul 31  2019 .bash_history-10685.tmp
+        -rw-------   1 dedek dedek        0 Jul  7  2019 .bash_history-12603.tmp
+        -rw-------   1 dedek dedek        0 Agu  4  2019 .bash_history-13250.tmp
+        -rw-r--r--   1 dedek dedek      220 Feb 17  2019 .bash_logout
+        -rw-r--r--   1 root  root       206 Feb 21  2019 .bash_profile
+        -rw-r--r--   1 dedek dedek     4134 Feb 26  2019 .bashrc
+        drwx------  41 dedek dedek     4096 Feb 25 22:21 .cache
+        drwx------  48 dedek dedek     4096 Feb 25 22:23 .config
+        drwx------   3 root  root      4096 Feb 18  2019 .dbus
+        drwxr-xr-x   2 dedek dedek     4096 Okt 21 15:49 Desktop
+        drwxr-xr-x  10 dedek dedek     4096 Feb 25 22:23 Documents
+        drwxr-xr-x  17 dedek dedek     4096 Feb 22 02:33 Downloads
+        drwxrwxr-x   4 dedek dedek     4096 Sep 20 10:30 .eclipse
+        -rw-r--r--   1 dedek dedek        0 Sep 23 22:56 edutore_local.sql
+        drwxr-xr-x   2 dedek dedek     4096 Jun 24  2019 .electron
+        -rw-------   1 dedek dedek       16 Feb 18  2019 .emulator_console_auth_token
+        -rw-r--r--   1 dedek dedek     8980 Feb 17  2019 examples.desktop
+        drwxr-xr-x   4 dedek dedek     4096 Jun 13  2019 .expo
+        -rw-r--r--   1 dedek dedek     1122 Mar  3  2019 firebase-debug.log
+        -rw-r--r--   1 dedek dedek   799694 Mar 12  2019 formulahendry.auto-rename-tag-unresponsive.cpuprofile.txt
+        drwx------   2 dedek dedek     4096 Jun 24  2019 .gconf
+        drwxrwxr-x   2 dedek dedek     4096 Feb 21  2019 gen
+        drwxrwxr-x   3 dedek dedek     4096 Feb 18  2019 .Genymobile
+        -rw-r--r--   1 dedek dedek       61 Jan 17 14:13 .gitconfig
+        -rw-r--r--   1 dedek dedek       54 Feb 21  2019 .gitconfiges
+        drwx------   3 dedek dedek     4096 Feb 17  2019 .gnome
+        drwx------   3 dedek dedek     4096 Feb 17  2019 .gnupg
+        drwxr-xr-x   2 dedek dedek     4096 Mar 27  2019 .gphoto
+        drwxr-xr-x   8 dedek dedek     4096 Mar  9  2019 .gradle
+        -rw-------   1 dedek dedek    66956 Feb 25 22:21 .ICEauthority
+        drwxrwxr-x   3 dedek dedek     4096 Mar 27  2019 .idea
+        -rw-r--r--   1 dedek dedek    12819 Feb 17  2019 install_nvm.sh
+        drwxr-xr-x   5 dedek dedek     4096 Jun 24  2019 .java
+        drwxrwxr-x   3 dedek dedek     4096 Agu 22  2019 .jmc
+        -rw-rw-r--   1 dedek dedek     2212 Sep 24 01:33 keystore.jks
+        -rw-r--r--   1 dedek dedek        0 Feb 25 23:23 listings
+        drwx------   3 dedek dedek     4096 Feb 17  2019 .local
+        drwx------   5 dedek dedek     4096 Feb 17  2019 .mozilla
+        drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Music
+        drwx------   3 dedek dedek     4096 Feb 17  2019 .mysql
+        -rw-------   1 dedek dedek      259 Jan 27 09:45 .mysql_history
+        drwxr-xr-x   3 dedek dedek     4096 Apr  4  2019 .node-gyp
+        drwxr-xr-x 176 dedek dedek     4096 Okt 10 11:14 node_modules
+        -rw-------   1 dedek dedek        5 Sep 23 14:55 .node_repl_history
+        -rw-r--r--   1 dedek dedek    11528 Feb 17  2019 nodesource_setup.sh
+        drwxr-xr-x   9 dedek dedek     4096 Feb 22 15:00 .npm
+        -rw-rw-r--   1 dedek dedek      356 Agu 22  2019 .nvidia-settings-rc
+        drwxr-xr-x   5 dedek dedek     4096 Feb 17  2019 .nvm
+        drwxr-xr-x  12 dedek dedek     4096 Feb 21 23:18 .oh-my-zsh
+        -rw-r--r--   1 dedek dedek    51127 Okt 10 11:14 package-lock.json
+        drwxr-xr-x   4 dedek dedek     4096 Feb 22 02:26 Pictures
+        drwx------   3 dedek dedek     4096 Feb 17  2019 .pki
+        -rw-r--r--   1 dedek dedek      807 Feb 17  2019 .profile
+        drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Public
+        drwxr-xr-x   3 dedek dedek     4096 Jul 22  2019 .react-native-cli
+        -rw-------   1 dedek dedek       85 Sep 23 17:14 .rediscli_history
+        -rw-rw-r--   1 dedek dedek      150 Jun 14  2019 Rounded_Rectangle_2.png
+        drwxr-xr-x   4 dedek dedek     4096 Jul 31  2019 snap
+        drwx------   2 dedek dedek     4096 Mar  9  2019 .ssh
+        -rw-r--r--   1 dedek dedek        0 Sep 20 10:04 sudo
+        -rw-r--r--   1 dedek dedek        0 Feb 16  2019 .sudo_as_admin_successful
+        drwxr-xr-x   2 dedek dedek     4096 Sep 20 11:34 .swt
+        -rw-r--r--   1 dedek dedek 13847748 Agu 20  2019 teamviewer_amd64.deb
+        drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Templates
+        -rw-r--r--   1 dedek dedek     5307 Okt  8 14:54 testdisk.log
+        drwx------   5 dedek dedek     4096 Jan 11 13:39 .thunderbird
+        drwxr-xr-x   3 dedek dedek     4096 Mar 13  2019 .tooling
+        drwxr-xr-x   2 dedek dedek     4096 Feb 17  2019 Videos
+        -rw-------   1 root  root      4585 Jul  8  2019 .viminfo
+        drwxrwxr-x   3 dedek dedek     4096 Agu 22  2019 .visualvm
+        drwxrwxr-x   3 dedek dedek     4096 Nov 21 23:03 .vscode
+        drwxr-xr-x   3 dedek dedek     4096 Jul 28  2019 .vue-cli-ui
+        -rw-r--r--   1 dedek dedek      119 Okt 11 11:12 .vuerc
+        drwxr-xr-x   7 dedek dedek     4096 Jan 27 21:38 .vue-templates
+        drwxr-xr-x  20 dedek dedek     4096 Mar 15  2019 watchman
+        -rw-r--r--   1 dedek dedek      273 Feb  2 03:35 .wget-hsts
+        drwxr-xr-x   4 dedek dedek     4096 Sep 20 10:25 .wine
+        drwxr-xr-x   3 dedek dedek     4096 Mar 12  2019 .yarn
+        -rw-r--r--   1 dedek dedek      116 Jan 27 21:29 .yarnrc
+        -rw-r--r--   1 dedek dedek    42742 Feb  2 02:39 .zcompdump
+        -rw-r--r--   1 dedek dedek    42742 Feb  2 02:40 .zcompdump-dj-5.4.2
+        -rw-------   1 dedek dedek     4831 Feb 25 23:23 .zsh_history
+        -rw-r--r--   1 dedek dedek     3551 Feb  2 02:40 .zshrc
+
+10. $ echo $PATH
+    /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+        

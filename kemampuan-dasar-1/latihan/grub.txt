@@ -1,0 +1,31 @@
+Parameter boot kernel adalah string teks yang ditafsirkan oleh sistem untuk mengubah perilaku tertentu dan mengaktifkan atau menonaktifkan fitur tertentu. Parameter boot kernel:
+
+peka huruf besar-kecil
+terkadang hanya kata sederhana (" percikan " atau " noapic ")
+
+terkadang memiliki tanda = dengan berbagai nilai yang mungkin (" acpi_backlight = vendor ")
+
+terkadang menyertakan tanda baca (" i8042.noloop ")
+
+Selalu masukkan parameter boot kernel persis seperti yang disarankan. Kesalahan dalam pengejaan atau pemformatan atau nilai yang tidak valid tidak akan menghasilkan pesan kesalahan apa pun, mereka hanya tidak akan berpengaruh.
+
+
+Tambahkan Sementara Parameter Kernel Boot untuk Pengujian :
+
+    1. Nyalakan kembali sistem Anda, atau matikan lalu hidupkan kembali.
+    2. Ketika sistem mulai melakukan booting berulang-ulang, ketuk tombol Esc untuk memaksa menu " GNU GRUB " muncul. Untuk mode BIOS (bukan mode UEFI), boot kunci SHIFT dapat ditekan terus menerus hingga menu muncul. Menu " GNU GRUB " akan terlihat seperti ini:
+        ~ Jika sistem hang pada layar logo vendor awal ketika Anda menekan SHIFT , lepaskan tombol SHIFT sebentar lalu tahan lagi sampai menu " GNU GRUB " muncul.
+        ~ Setelah menu " GNU GRUB " muncul, sorot entri yang diinginkan dan tekan tombol e untuk masuk ke mode edit. Layar mode edit akan terlihat seperti ini:
+        ~ Gunakan tombol panah bawah untuk memindahkan kursor ke baris yang dimulai dengan kata " linux ", lalu tekan tombol END untuk memindahkan kursor ke akhir baris itu. Biasanya ini hanya setelah kata " quiet splash ".
+        ~ Tekan SPACE untuk menambahkan spasi kosong (setelah " splash ") lalu ketikkan parameter boot kernel yang perlu Anda tambahkan. (Jika Anda perlu menambahkan beberapa parameter, pisahkan dengan SPACE tetapi jangan tambahkan spasi sebelum atau setelah tanda = atau tanda baca apa pun dalam parameter itu sendiri).
+        ~ Tekan Ctrl + X untuk mem-boot sistem menggunakan parameter yang telah Anda tambahkan.
+
+Tambahkan Parameter Boot Kernel secara permanen
+    1. Masuk ke sistem dan mulai jendela terminal (Aplikasi-> Aksesori-> Terminal).
+    2. Di jendela terminal di $ prompt, masukkan perintah: sudo gedit / etc / default / grub
+        ~ Masukkan kata sandi Anda saat diminta oleh [sudo].
+        ~ Jika file / etc / default / grub tampaknya kosong atau tidak ada, lihat instruksi untuk rilis sebelumnya di atas).
+    3. Di jendela editor, gunakan tombol panah untuk memindahkan kursor ke baris yang dimulai dengan " GRUB_CMDLINE_LINUX_DEFAULT " lalu edit baris itu, tambahkan parameter Anda ke teks di dalam tanda kutip ganda setelah kata " quiet splash ". (Pastikan untuk menambahkan SPACE setelah " splash " sebelum menambahkan parameter baru Anda.) Klik tombol Simpan , lalu tutup jendela editor.
+    4. Di jendela terminal di $ prompt, masukkan perintah: sudo update-grub
+    5. Mulai ulang sistem.
+Catatan: Parameter yang Anda tambahkan ke baris GRUB_CMDLINE_LINUX_DEFAULT persisten, dan akan berlaku untuk setiap sesi boot berikutnya (kecuali Anda menghapusnya dengan mengulangi prosedur di atas).
