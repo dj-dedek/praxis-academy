@@ -19,3 +19,12 @@
     ~ /proc (baca : process) ==> Direktori /proc juga merupakan pseudo filesystem yang mirip dengan /dev. Bedanya, /proc ini murni hanya berkaitan dengan sistem dan tidak menyangkut pada device. Jika kita melakukan pengecekan ukuran penggunaan space, jangan terkecoh dengan direktori /proc yang tercatat menunjukkan memakan space sangat besar. Segala macam space yang tertulis disitu sama sekali tidak terdapat di dalam media penyimpanan harddisk. Jadi direktori /proc sebenarnya tidak ada sama sekali. Isi dari /proc ini adalah infomasi dari sistem.
     ~ /tmp (baca : temporary) ==> Merupakan file sistem yang menyimpan file-file sementara. Beberapa distro akan otomatis membersihkan isi dari /tmp sewaktu reboot. Direktori /tmp memiliki mode yang sangat terbuka sehingga mudah untuk ditulisi oleh siapa saja. Didalam /var/tmp juga digunakan sebagai penyimpanan file-file sementara, bedanya /var/tmp dengan /tmp yaitu /var/tmp tidak akan dibersihkan saat system reboot.
     ~ /lost+found ==> Di direktori ini linux menyimpan file-file yang berhasil di recover saat sistem crash. Dengan melihat kedalam /lost+found mungkin kita dapat menemukan file yang hilang.
+
+3. Cara kedua adalah dengan menggunakan terminal command :
+    - Buka terminal yang ada di aplikasi pilihan
+   - Ketikan “sudo su” (tanpa tanda petik) dan masukan password, hal ini untuk supaya pada saat akan membuka aplikasi tidak harus menggunakan sudo lagi.
+   - Untuk mengetahui versi ubuntu ketikan diterminal “lsb_release -a” (tanpa tanda petik) dan “enter” dengan keyboard maka akan keluar output berupa versi ubuntu yang digunakan seperti pada gambar dibawah ini.
+cara mengetahui versi ubuntu di terminal command
+
+
+4. Cara mengetahui versi kernel yang dipakai di ubuntu adalah dengan mengetikan "uname -r" atau "uname -a" (tanpa tanda pentik).
