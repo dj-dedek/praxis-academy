@@ -2,15 +2,17 @@ public class main
 {
     public static void main(String[] args)
     {
-        int[] numbers = new int[20];
 
-        for(int i = 0; i < numbers.length; i++)
-        {
-            // numbers[i] = i + 1;
-            System.out.println(numbers[i]);
-        }
+       
+        // int[] numbers = new int[20];
+
+        // for(int i = 0; i < numbers.length; i++)
+        // {
+        //     // numbers[i] = i + 1;
+        //     System.out.println(numbers[i]);
+        // }
         
-    
+        /** */
             int i, j, m, n; // Deklarasi
             int matriks1[][] = new int[10][10]; // deklarasi array 2 dimensi
             int matriks2[][] = new int[10][10];
@@ -46,6 +48,6 @@ public class main
                 }
                 System.out.println();
             }
-    
+        /**/
     }
 }
