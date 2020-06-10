@@ -1,9 +1,9 @@
+import java.util.Scanner;
+
 public class main
 {
     public static void main(String[] args)
     {
-
-       
         // int[] numbers = new int[20];
 
         // for(int i = 0; i < numbers.length; i++)
@@ -27,7 +27,7 @@ public class main
             {
                 for (j = 0; j < n; j++) 
                 {
-                matriks1[i][j] = scan.nextInt();
+                    matriks1[i][j] = scan.nextInt();
                 }
             }
             System.out.println("Masukkan elemen matriks kedua: ");
@@ -35,7 +35,7 @@ public class main
             {
                 for (j = 0; j < n; j++) 
                 {
-                matriks2[i][j] = scan.nextInt();
+                    matriks2[i][j] = scan.nextInt();
                 }
             }
             System.out.println("Hasil penjumlahan matriks: ");
@@ -43,10 +43,10 @@ public class main
             {
                 for (j = 0; j < n; j++) 
                 {
-                hasil[i][j] = matriks1[i][j] + matriks2[i][j];
-                System.out.print(hasil[i][j] + "\t");
+                    hasil[i][j] = matriks1[i][j] + matriks2[i][j];
+                    System.out.println(hasil[i][j] + "\t");
                 }
-                System.out.println();
+                // System.out.println();
             }
         /**/
     }
