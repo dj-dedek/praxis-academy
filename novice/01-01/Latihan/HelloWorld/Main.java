@@ -1,7 +1,4 @@
-
 import java.util.Scanner;
-
-// package HelloWorld;
 
 public class Main
 {
@@ -12,46 +9,46 @@ public class Main
     public static int penjumlahan(int a, int b) {
         
         int hasil = a + b;
-
+        System.out.println(hasil);
         return hasil;
     }
 
     public static int pengurangan(int a, int b) {
         
         int hasil = a - b;
-
+        System.out.println(hasil);
         return hasil;
     }
 
     public static int pembagian(int a, int b) {
         
         int hasil = a / b;
-
+        System.out.println(hasil);
         return hasil;
     }
 
     public static int perkalian(int a, int b) {
         
         int hasil = a * b;
-
+        System.out.println(hasil);
         return hasil;
     }
 
     public static int sisaBagi(int a, int b) {
         
         int hasil = a % b;
-
+        System.out.println(hasil);
         return hasil;
     }
     
-    // public static int hasil(int hasil) {
-    //     hasil = 
-    // }
     public static void operatorWrong() {
         System.out.println("Operasi yang anda gunakan salah!");
         // Output.s("Test");
     }
 
+    public static void isValue() {
+        System.out.print("Hasilnya adalah : ");
+    }
     public static void main(String[] args)
     {
         // args[0] = "test";
@@ -64,14 +61,8 @@ public class Main
         // S.o("Hello World 2");
         
 
-
-
-        // a operator b 
-
         int a,b;
-        // hasil;
         char operator;
-        Main cal = new Main();
         Scanner s = new Scanner(System.in);
 
         System.out.print("Nilai a  : ");
@@ -84,23 +75,36 @@ public class Main
         System.out.println("Input user : " + a + " " + operator + " " + b);
         
         switch(operator) {
-            case '+' : 
-                       System.out.println("Hasilnya adalah : " + penjumlahan(a, b));
+            case '+' : {
+                isValue();
+                penjumlahan(a, b);
                 break;
-            case '/' : 
-                       System.out.println("Hasilnya adalah : " + pembagian(a, b));
+            }
+            case '/' : {
+                isValue();
+                pembagian(a, b);
                 break;
-            case '*' : 
-                       System.out.println("Hasilnya adalah : " + perkalian(a, b));
+            }
+            case '*' : {
+                isValue();
+                perkalian(a, b);
                 break;
-            case '-' : 
-                       System.out.println("Hasilnya adalah : " + pengurangan(a, b));
+            }
+            case '-' : {
+                isValue();
+                pengurangan(a, b);
                 break;
-            case '%' : 
-                       System.out.println("Hasilnya adalah : " + sisaBagi(a, b));
+            }
+            case '%' : {
+                isValue();
+                sisaBagi(a, b);
                 break;
-            default : operatorWrong();
+            }
+            default : {
+                operatorWrong();
+            }
         }
+        s.close();
 
         // operasi penjumlahan
         // if(operator == '+') {
