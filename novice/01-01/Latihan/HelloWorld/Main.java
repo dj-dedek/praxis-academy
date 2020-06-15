@@ -7,35 +7,30 @@ public class Main
     public char operator;
 
     public static int penjumlahan(int a, int b) {
-        
         int hasil = a + b;
         System.out.println(hasil);
         return hasil;
     }
 
     public static int pengurangan(int a, int b) {
-        
         int hasil = a - b;
         System.out.println(hasil);
         return hasil;
     }
 
     public static int pembagian(int a, int b) {
-        
         int hasil = a / b;
         System.out.println(hasil);
         return hasil;
     }
 
     public static int perkalian(int a, int b) {
-        
         int hasil = a * b;
         System.out.println(hasil);
         return hasil;
     }
 
     public static int sisaBagi(int a, int b) {
-        
         int hasil = a % b;
         System.out.println(hasil);
         return hasil;
@@ -60,7 +55,6 @@ public class Main
         // }
         // S.o("Hello World 2");
         
-
         int a,b;
         char operator;
         Scanner s = new Scanner(System.in);
