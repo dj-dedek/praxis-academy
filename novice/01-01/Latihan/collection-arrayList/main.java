@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class main
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         ArrayList<String> colors = new ArrayList<String>();
         
         colors.add("blue");

@@ -13,7 +13,7 @@ public class main
 
         System.out.println(v);
         System.out.println(v.size());
-        v.remove(3);
+        // v.remove(3);
         System.out.println(v);
 
         for(String s : v)

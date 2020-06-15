@@ -46,7 +46,7 @@ public class main
                     hasil[i][j] = matriks1[i][j] + matriks2[i][j];
                     System.out.println(hasil[i][j] + "\t");
                 }
-                // System.out.println();
+                System.out.println();
             }
         /**/
     }
