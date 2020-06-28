@@ -24,10 +24,10 @@ public class OverridingDemo {
     {
         System.out.println("----obj4----");
         // Child obj4 = new Parent(); // cannot do this
-        Child obj4=(Child)new Parent();
-        obj4.show();
-        obj4.insert();
-        obj4.delete();
+        // Child obj4=(Child)new Parent();
+        // obj4.show();
+        // obj4.insert();
+        // obj4.delete();
 
         System.out.println("----obj3----");
         Parent obj3 = new Parent();
